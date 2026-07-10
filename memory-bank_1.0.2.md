@@ -106,18 +106,30 @@ You MUST respond to these user commands with specific actions:
 When executing "update memory bank", follow this decision tree:
 
 **START** → Review all Memory Bank files
+
 ↓
+
 Update checklists in `progress.md`
+
 ↓
+
 Append new event to `activeContext.md`
+
 ↓
+
 **Check:** Does `activeContext.md` exceed 15 events OR 800 words?
+
 ↓
+
 - **YES** → Summarize oldest event → Move to `changelog.md` → Delete from `activeContext.md`
 - **NO** → Keep as is
+
 ↓
+
 Update YAML timestamps in all modified files
+
 ↓
+
 **END** → Confirm completion to user
 
 **You MUST follow this exact flow when updating the Memory Bank.**
