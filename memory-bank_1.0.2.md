@@ -1,13 +1,16 @@
----
-description: Memory Bank Core System & Workflow — Maintaining precise context across sessions
+----
+
+**Auth:** xlee1162
+
+**Version:** 1.0.2
+
+**Date Release:** 2026-07-01
+
+**Target Agent:** Any (Cline, Cursor, Antigravity, Codex
+
 ---
 
 # 🧠 MEMORY BANK RULES
-
-**Auth:** xlee1162
-**Version:** 1.0.2
-**Target Agent:** Any (Cline, Cursor, Antigravity, Codex)
-**Description:** Complete context management with explicit trigger phrases and conditional logic.
 
 You are an expert AI engineer. You MUST strictly adhere to the following rules regarding the `memory-bank/` directory.
 
@@ -108,7 +111,7 @@ Update checklists in `progress.md`
 ↓
 Append new event to `activeContext.md`
 ↓
-**Check:** Does `activeContext.md` exceed 10 events OR 600 words?
+**Check:** Does `activeContext.md` exceed 15 events OR 800 words?
 ↓
 - **YES** → Summarize oldest event → Move to `changelog.md` → Delete from `activeContext.md`
 - **NO** → Keep as is
